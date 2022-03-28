@@ -1,50 +1,47 @@
-# 엑스퍼트 아카데미 리뉴얼 프로젝트
+# 엑스퍼트 아카데미 웹 리뉴얼 프로젝트
 
-기존 홈페이지 http://www.excacademy.co.kr/
+<video src="C:\Users\soarm\Downloads\screen-recording.webm"></video> 
 
-## ☆ commit 하기 전 pull 먼저!! ☆
 
-\*\*커밋메세지 작성시 맨앞에 붙여주세요.  
-[add] : 파일 추가시  
-[modify] : 파일 수정시  
-[delete] : 파알 삭제시
 
-## git 내려받는 방법 여기보세요
+## :green_apple: 새싹 디벨로퍼조
 
-https://otuin.tistory.com/370
+- 팀원
+  - [김미연](https://github.com/kalmtalyst)  
+  - [김세영](https://github.com/julie-kim-dev) 
+  - [박한솔](https://github.com/hansol787897465121) 
+  - [안예지](https://github.com/yeahhaaa) 
+  - [이승연](https://github.com/devSeung0v0) 
+  - [조여진](https://github.com/yeojincho)
 
-git 클론 후  
-최상위 폴더 말고 상위폴더로 VSCode에 폴더열기!!  
-그다음 터미널에 npm install 실행 후 npm start 실행
 
-## 공통사항
 
-### 설치 패키지
+## :heavy_check_mark: 주요 기능 소개
 
-npm install axios  
-npm install react-router-dom@5  
-npm install redux react-redux  
-npm install reactstrap  
-npm install bootstarp  
-npm install swiper  
-npm install jquery  
-npm install react-responsive   
-npm install react-scroll  
-npm install react-cookie    
-npm install react-draggable   
+- 메인
+- 공개과정
+- 취업과정
+- Ex 콘텐츠
+- 고객센터
+  - 공지사항 알림
+  - 문의하기 페이지에서는 고객이 직접 문의사항 작성 가능
+- 아카데미
 
-### 1depth 폴더명
 
-공개과정(program)  
-취업과정(job)  
-Ex콘텐츠(excontents)  
-고객센터(customer)  
-아카데미(arademy)
 
-### 공통 inner 적용
+## :computer: 사용 기술 스택
 
--width : ???px  
--class명 : inner-box  
--css : common.css
+### 프론트엔드
 
-### 브랜치
+- 언어: **JS(ES6)**
+- 프론트엔드 라이브러리: **React**
+- 상태 관리 라이브러리: **Redux**
+- 스타일링: **CSS**, **styled components**
+
+
+
+### 협업 툴
+
+- 디자인 및 시안 구성 : **Figma**
+
+- 소스코드 저장 및 분산 버전 관리: **Git**, **GitHub**
