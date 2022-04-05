@@ -1,129 +1,264 @@
-.t_infoContainer {
-  box-sizing: border-box;
-  width: 590px;
-  padding: 40px 30px;
-  background-color: rgba(211, 211, 211, 0.2);
-  border-radius: 10px;
-  margin-bottom: 50px;
-  display: flex;
+
+/* PC  CSS */
+@media screen and (min-width:768px) {
+
+  /* 강사 한명 상자*/
+  .t_infoContainer {
+    width: 600px;
+    padding: 40px 2vw;
+    background-color: rgba(211, 211, 211, 0.2);
+    border-radius: 10px;
+    margin-bottom: 3.4vw;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+ 
+  
+  /* 왼쪽 박스 */
+  
+  /* 강사인터뷰 영상 이동 버튼 */
+  .t_btn {
+    color: #212529;
+    border: 1px solid #212529;
+    border-radius: 12px;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    background-image: url('/public/images/main/ico_youtube.png');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: right 15px top 50%;
+    text-indent: -15px;
+  }
+  
+  .t_btn:hover {
+    background-color: #eee;
+  }
+  
+  
+  .t_img-box {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .t_img-box .t_img { 
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+  }
+  
+  .t_img-box .t_name {
+    font-size: 20px;
+    letter-spacing: 1.2;
+    color: #212529;
+    font-weight: bold;
+  }
+  
+  /* 사진아래 마진 */
+  .t_img-box a {
+    margin-bottom: 20px;
+  }
+  
+  .t_img-box .t_img:hover {
+    opacity: 0.5;
+  }
+  
+  
+  /* 오른쪽 박스 */
+  .t_content-box .t_historyBox {
+    margin-bottom: 30px;
+  }
+  .t_content-box .t_historyBox h3 {
+    color: #212529;
+  }
+  
+  .t_content-box .t_historyBox p {
+    color: #212529;
+    font-weight:lighter;
+  }
+  
+  .t_content-box .t_historyBox .t_history {
+    margin-bottom: 7px;
+    font-size: 15px;
+  }
+  
+  .t_historyBox p::before {
+    content:'';
+    display:inline-block;
+    width:8px;
+    height:1px;
+    margin:-5px 10px auto auto;
+    vertical-align:middle;
+    background:#212529;
+  }
+  
+  .t_content-box .t_expertise {
+    color: #212529;
+    margin-bottom: 37px;
+  }
+  .t_content-box .t_expertise span {
+    color: #212529;
+    font-weight: lighter;
+    margin-left: 7px;
+    font-size: 15px;
+  }
+  
+  
+  .t_lectureBox h3 {
+    color: #212529;
+    margin-bottom: 7px;
+  }
+  
+  .t_lectureBox #lectureList {
+    width: 100%;
+  }
+  .t_lectureBox #lectureList option {
+    text-align: center;
+  }
 }
 
-.t_infoContainer {
-  overflow: hidden;
+/* 패드  CSS */
+@media screen and (max-width:767px) {
+  .t_infoContainer {
+    width: 90vw;
+    padding: 40px 2vw;
+    background-color: rgba(211, 211, 211, 0.2);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    flex-direction: row;
+  }
+  
+  
+  /* 왼쪽 박스 */
+  
+  /* 강사인터뷰 영상 이동 버튼 */
+  .t_btn {
+    color: #212529;
+    border: 1px solid #212529;
+    border-radius: 12px;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    background-image: url('/public/images/main/ico_youtube.png');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: right 15px top 50%;
+    text-indent: -15px;
+  }
+  
+  .t_btn:hover {
+    background-color: #eee;
+  }
+  
+  
+  .t_img-box {
+    margin-right: 2.7vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .t_img-box .t_img { 
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+  }
+  
+  .t_img-box .t_name {
+    font-size: 20px;
+    letter-spacing: 1.2;
+    color: #212529;
+    font-weight: bold;
+  }
+  
+  /* 사진아래 마진 */
+  .t_img-box a {
+    margin-bottom: 20px;
+  }
+  
+  .t_img-box .t_img:hover {
+    opacity: 0.5;
+  }
+  
+  
+  /* 오른쪽 박스 */
+  .t_content-box .t_historyBox {
+    margin-bottom: 30px;
+  }
+  .t_content-box .t_historyBox h3 {
+    color: #212529;
+  }
+  
+  .t_content-box .t_historyBox p {
+    color: #212529;
+    font-weight:lighter;
+  }
+  
+  .t_content-box .t_historyBox .t_history {
+    margin-bottom: 7px;
+    font-size: 15px;
+  }
+  
+  .t_historyBox p::before {
+    content:'';
+    display:inline-block;
+    width:8px;
+    height:1px;
+    margin:-5px 10px auto auto;
+    vertical-align:middle;
+    background:#212529;
+  }
+  
+  .t_content-box .t_expertise {
+    color: #212529;
+    margin-bottom: 37px;
+  }
+  .t_content-box .t_expertise span {
+    color: #212529;
+    font-weight: lighter;
+    margin-left: 7px;
+    font-size: 15px;
+  }
+  
+  
+  .t_lectureBox h3 {
+    color: #212529;
+    margin-bottom: 7px;
+  }
+  
+  .t_lectureBox #lectureList {
+    width: 100%;
+  }
+  .t_lectureBox #lectureList option {
+    text-align: center;
+  }
 }
 
 
-/* 왼쪽 박스 */
+/* 모바일  CSS */
+@media screen and (max-width:412px) { 
+  .t_infoContainer {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+  }
 
-/* 강사인터뷰 영상 이동 버튼 */
-.t_btn {
-  color: #212529;
-  border: 1px solid #212529;
-  border-radius: 12px;
-  width: 120px;
-  height: 30px;
-  line-height: 30px;
-  font-size: 14px;
-  background-image: url('/public/images/main/ico_youtube.png');
-  background-size: 15px 15px;
-  background-repeat: no-repeat;
-  background-position: right 15px top 50%;
-  text-indent: -15px;
+  .t_img-box{
+    margin-bottom: 30px;
+  }
 }
-
-.t_btn:hover {
-  background-color: #eee;
-}
-
-
-.t_img-box {
-  margin-right: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.t_img-box .t_img { 
-  width: 170px;
-  height: 170px;
-  object-fit: cover;
-  object-position: top;
-  border-radius: 50%;
-}
-
-.t_img-box .t_name {
-  font-size: 20px;
-  letter-spacing: 1.2;
-  color: #212529;
-  font-weight: bold;
-}
-
-/* 사진아래 마진 */
-.t_img-box a {
-  margin-bottom: 20px;
-}
-
-.t_img-box .t_img:hover {
-  opacity: 0.5;
-}
-
-
-/* 오른쪽 박스 */
-.t_content-box .t_historyBox {
-  margin-bottom: 30px;
-}
-.t_content-box .t_historyBox h3 {
-  color: #212529;
-}
-
-.t_content-box .t_historyBox p {
-  color: #212529;
-  font-weight:lighter;
-}
-
-.t_content-box .t_historyBox .t_history {
-  margin-bottom: 7px;
-  font-size: 15px;
-}
-
-.t_historyBox p::before {
-  content:'';
-  display:inline-block;
-  width:8px;
-  height:1px;
-  margin:-5px 10px auto auto;
-  vertical-align:middle;
-  background:#212529;
-}
-
-.t_content-box .t_expertise {
-  color: #212529;
-  margin-bottom: 37px;
-}
-.t_content-box .t_expertise span {
-  color: #212529;
-  font-weight: lighter;
-  margin-left: 7px;
-  font-size: 15px;
-}
-
-
-.t_lectureBox h3 {
-  color: #212529;
-  margin-bottom: 7px;
-}
-
-.t_lectureBox #lectureList {
-  width: 100%;
-}
-.t_lectureBox #lectureList option {
-  text-align: center;
-}
-
-
-
-
-
 
 
 

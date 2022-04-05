@@ -5,7 +5,7 @@ import "./TeacherInfo_detail.css";
 
 export default function TeacherInfo_detail({ name, edu, src, expertise }) {
   function href(e) {
-    window.location.href = "https://youtu.be/w-HAjo8PhVo";
+    window.open("https://youtu.be/w-HAjo8PhVo"); //새탭으로 열기
   }
 
   const moveUrl = (value) => {
@@ -15,7 +15,7 @@ export default function TeacherInfo_detail({ name, edu, src, expertise }) {
   return (
     <div className="t_infoContainer">
       <div className="t_img-box">
-        <a href="https://youtu.be/w-HAjo8PhVo" target="_blank">
+        <a href="#" target="_blank">
           <img src={src} alt="강사이미지" className="t_img" />
         </a>
         <h2 className="t_name">{name}</h2>
