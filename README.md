@@ -32,7 +32,7 @@
 <br>
 
 <p align="center">
-<img src="https://github.com/hansol787897465121/Sesac/blob/main/image/logo.png" width="500" height="200"  ><img src="https://github.com/hansol787897465121/Sesac/blob/main/image/expert-qr.png" width="150" height="200" align="right">  
+<img src="https://user-images.githubusercontent.com/86069422/165102153-2e95fe11-17ad-4d6d-a8fc-7a54e023f690.jpg" width="500" height="200"  ><img src="https://user-images.githubusercontent.com/86069422/160289118-1d22d280-9e8c-4abd-bcce-61477758457a.png" width="150" height="200" align="right">  
 </p>
 <br/>
 
@@ -42,7 +42,7 @@
 
 ## 메뉴 구조도
 <p align="center">
-<img src="https://github.com/hansol787897465121/Sesac/blob/main/image/menu1.png" width="800" height="400"  >
+<img src="https://user-images.githubusercontent.com/86069422/160288239-68dedfbc-0881-42a2-8e3f-c06536b316bd.png" width="800" height="400"  >
 </p>
 <br/>
 
