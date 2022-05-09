@@ -1,6 +1,9 @@
 # 엑스퍼트 아카데미 웹 리뉴얼 프로젝트
 
-<video src="C:\Users\soarm\Downloads\screen-recording.webm"></video>
+리뉴얼 대상: [엑스퍼트 아카데미](http://www.excacademy.co.kr/)</br>
+리뉴얼 페이지: [Click](http://expert002.cafe24.com)
+
+</br>
 
 ## :green_apple: 새싹 디벨로퍼조
 
@@ -12,16 +15,31 @@
   - [이승연](https://github.com/devSeung0v0)
   - [조여진](https://github.com/yeojincho)
 
-## :heavy_check_mark: 주요 기능 소개
+</br>
 
-- 메인
-- 공개과정
-- 취업과정
-- Ex 콘텐츠
-- 고객센터
-  - 공지사항 알림
-  - 문의하기 페이지에서는 고객이 직접 문의사항 작성 가능
-- 아카데미
+## 메뉴 구조도
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/86069422/160288239-68dedfbc-0881-42a2-8e3f-c06536b316bd.png" width="800" height="400"  >
+</p>
+</br>
+
+## ⚠️ Requirement
+
+최신 Chrome Browser 사용을 권장합니다.
+
+</br>
+
+## ⚙️ Installation
+
+#### Setup
+
+`git clone https://github.com/Sesac22022202/Sesac`
+`cd client`
+`npm install`
+`npm start`
+
+</br>
 
 ## :computer: 사용 기술 스택
 
